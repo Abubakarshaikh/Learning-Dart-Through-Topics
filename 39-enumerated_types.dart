@@ -3,4 +3,10 @@
 // Types & CONSTANT VALUES container
 // enum Weather {sunny, snowy, cloudy, rainy}
 // Enum values output & indexes
-void main() {}
+
+enum Weather { sunny, snowy, cloudy, rainy }
+
+void main() {
+  Weather myWeather = Weather.rainy;
+  print(myWeather.index);
+}
