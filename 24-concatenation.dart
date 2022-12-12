@@ -1,11 +1,7 @@
-// Concatenation
-
-// use a string buffer
-
+// Example #1:
 void main() {
-  StringBuffer someString = StringBuffer();
-  someString.write("Hello");
-  someString.write(" My name is Ali");
-
-  print(someString);
+  String message = 'Hello' + ' my name is ';
+  const name = 'Ray';
+  message += name;
+  print(message);
 }

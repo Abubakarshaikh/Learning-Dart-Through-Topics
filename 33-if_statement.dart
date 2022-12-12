@@ -1,14 +1,8 @@
-// The if statement
+// Example #1: if statement
+// void main() {
+//   if (2 > 1) {
+//     print('Yes, 2 is greater than 1.');
+//   }
+// }
 
-// Boolean expression
-// Nested If statement
-
-void main() {
-  if (1 > 2) {
-    print("1");
-
-    if (2 > 1) {
-      print("2");
-    }
-  }
-}
+// Example #2: 

@@ -1,13 +1,35 @@
-// // dynamically-typed language
-// // optionally-typed language
-// // dynamically typed & statically-typed
-// // Object? type.
-
+// Example #1:  JavaScript is a dynamically-typed language.
 // void main() {
-//   // dynamic someString = "Hello, JavaScript";
-//   // someString = 456;
+//   var myVariable = 42;
+//   myVariable = "Hello";
+//   print(myVariable);
+// }
 
-//   Object someValue;
+// Example #2: compile-time error
+// void main() {
+//   var myVariable = 42;
+//   myVariable = "Hello";
+//   print(myVariable);
+// }
 
-//   print(someValue);
+// Example #3:
+// void main() {
+//   dynamic myVariable = 42;
+//   myVariable = 'hello';
+//   print(myVariable);
+// }
+
+// Example #4:
+// void main() {
+//   var myVariable;
+//   myVariable = 42;
+//   myVariable = 'hello';
+//   print(myVariable);
+// }
+
+// Example #5: consider using the Object? type.
+// void main() {
+//   Object? myVariable = 42;
+//   myVariable = 'hello';
+//   print(myVariable);
 // }

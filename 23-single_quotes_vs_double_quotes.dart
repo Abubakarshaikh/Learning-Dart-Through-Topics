@@ -1,10 +1,14 @@
-// Single-quotes vs. double-quotes
+// Example #1: single quotes
+// void main() {
+//   String someString = 'I Like cats';
+// }
 
-// recommend using single-quotes,
-// includes any apostrophes
-// backslash \
+// Example #2: apostrophes & backslash \
+// void main() {
+//   String someString = 'my cat\'s food';
+// }
 
-void main() {
-  var greet = 'Hello, world! \'flutter\' ';
-  print(greet);
-}
+// Example #3: 
+// void main() {
+//   String someString = "my cat's food";
+// }
