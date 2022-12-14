@@ -48,10 +48,49 @@
 // }
 
 // // Example #5: Star Print Using For Loop
-void main() {
-  String star = "";
-  for (var i = 0; i < 3; i++) {
-    star += "*";
-    print(star);
-  }
-}
+// void main() {
+//   String star = "";
+//   for (var i = 0; i < 3; i++) {
+//     star += "*";
+//     print(star);
+//   }
+// }
+
+// Exercise #1:
+// 1
+// 22
+// 333
+// 4444
+
+// Exercise #2:
+// 1
+// 2 3
+// 4 5 6
+// 7 8 9 10
+
+// Exercise #3:
+// 1
+// 2 3
+// 4 5 6
+// 7 8 9 10
+// 11 12 13 14 15
+
+
+
+
+
+
+
+// import 'dart:io';
+// void main() {
+//   stdout.write("How many Rows: ");
+//   final input = int.tryParse(stdin.readLineSync()!) ?? 0;
+//   int columnNumber = 1;
+//   for (var rows = 0; rows <= input; rows++) {
+//     for (var column = 0; column < rows; column++) {
+//       stdout.write(" $columnNumber");
+//       columnNumber++;
+//     }
+//     print("");
+//   }
+// }
