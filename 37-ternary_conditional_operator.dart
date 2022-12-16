@@ -13,11 +13,11 @@
 // }
 
 // Example #3: Output Will Be.
-// void main() {
-//   int i = 10;
-//   String isEven = i % 2 == 0 ? "Even" : "Odd";
-//   print(isEven);
-// }
+void main() {
+  int i = 10;
+  String isEven = i % 2 == 0 ? "Even" : "Odd";
+  print(isEven);
+}
 
 // // Example #4: Output Will Be.
 // void main() {
