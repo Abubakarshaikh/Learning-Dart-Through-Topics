@@ -55,7 +55,7 @@
 //   }
 // }
 
-// Example #1:
+// Exercise #1:
 // Find Prime Number
 
 // input number (2 - infinite): 3, 6

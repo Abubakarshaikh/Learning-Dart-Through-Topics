@@ -23,14 +23,14 @@
 // }
 
 // Example #3:
-// enum Weather {
-//   sunny,
-//   cloudy,
-//   fog,
-//   showers,
-//   snowy,
-//   clear,
-// }
+enum Weather {
+  sunny,
+  cloudy,
+  fog,
+  showers,
+  snowy,
+  clear,
+}
 
 // void main() {
 //   final Weather todayWeather = Weather.clear;
