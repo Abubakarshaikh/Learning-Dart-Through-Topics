@@ -70,16 +70,16 @@
 // }
 
 // Example #6: Making named parameters required
-bool withinTolerance({
-  required int value,
-  int min = 0,
-  int max = 10,
-}) {
-  return min <= value && value <= max;
-}
+// bool withinTolerance({
+//   required int value,
+//   int min = 0,
+//   int max = 10,
+// }) {
+//   return min <= value && value <= max;
+// }
 
-void main() {
-  bool isTrue = withinTolerance(value: 9, min: 7, max: 11); // ?
-  // bool isTrue = withinTolerance(); // ?
-  print(isTrue);
-}
+// void main() {
+//   bool isTrue = withinTolerance(value: 9, min: 7, max: 11); // ?
+//   // bool isTrue = withinTolerance(); // ?
+//   print(isTrue);
+// }
